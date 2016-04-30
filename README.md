@@ -8,8 +8,8 @@ To get this to work you should:
 
 * be on a Mac (otherwise the `switchApp` will probably break) - patches welcomed :bowtie:
 * run Time Clickers in a Window at 1024x768
-* have upgraded **Starting Gold** 44 times - otherwise the constant in the `range(90)` for "upgrade a bunch" will be off
-* have enough Weapon Cubes to have all 3 Click Weapons (Pistol, Launcher, Cannon)
+* have upgraded :trophy: **Starting Gold** 44 times - otherwise the constant in the `range(90)` for "upgrade a bunch" will be off
+* have enough Weapon Cubes to have all 3 Click Weapons (Pistol :gun:, Launcher, Cannon :bomb:)
 
 ## Scripts
 
