@@ -1,0 +1,138 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>TimeWarp.sikuli</h2> <a href="TimeWarp.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="cmt"># 1. start Time Clickers (windowed 1024x768)</span>
+<span class="cmt"># 2. start time warp</span>
+<span class="cmt"># 3. pick artifacts, click done</span>
+<span class="cmt"># 4. run this script</span>
+<span class="cmt"># 5. profit</span>
+
+<span class="kw">from</span> time <span class="kw">import</span> <span class="skw">sleep</span>
+
+switchApp(<span class="str">"TimeClickers"</span>)
+
+<span class="cmt"># upgrade gun</span>
+<span class="skw">click</span>(<img src="gun01.png" />) <span class="cmt"># 01</span>
+<span class="skw">click</span>(<img src="gun02.png" />) <span class="cmt"># 02</span>
+<span class="skw">click</span>(<img src="gun03.png" />) <span class="cmt"># 03</span>
+<span class="skw">click</span>(<img src="gun04.png" />) <span class="cmt"># 04</span>
+<span class="skw">click</span>(<img src="gun05.png" />) <span class="cmt"># 05</span>
+<span class="skw">click</span>(<img src="gun06.png" />) <span class="cmt"># 06</span>
+<span class="skw">click</span>(<img src="gun07.png" />) <span class="cmt"># 07</span>
+<span class="skw">click</span>(<img src="gun08.png" />) <span class="cmt"># 08</span>
+<span class="skw">click</span>(<img src="gun09.png" />) <span class="cmt"># 09</span>
+<span class="skw">click</span>(<img src="gun10.png" />) <span class="cmt"># 10</span>
+<span class="skw">click</span>(<img src="gun11.png" />) <span class="cmt"># 11</span>
+<span class="skw">click</span>(<img src="gun12.png" />) <span class="cmt"># 12</span>
+<span class="skw">click</span>(<img src="gun13.png" />) <span class="cmt"># 13</span>
+
+
+<span class="cmt"># buy abilities</span>
+<span class="skw">click</span>(<img src="ability01.png" />) <span class="cmt"># 01</span>
+<span class="skw">click</span>(<img src="ability02.png" />) <span class="cmt"># 02</span>
+<span class="skw">click</span>(<img src="ability03.png" />) <span class="cmt"># 03</span>
+<span class="skw">click</span>(<img src="ability04.png" />) <span class="cmt"># 04</span>
+<span class="skw">click</span>(<img src="ability05.png" />) <span class="cmt"># 05</span>
+<span class="skw">click</span>(<img src="ability06.png" />) <span class="cmt"># 06</span>
+<span class="skw">click</span>(<img src="ability07.png" />) <span class="cmt"># 07</span>
+<span class="skw">click</span>(<img src="dimension_shift.png" />) <span class="cmt"># dimension shift</span>
+<span class="skw">click</span>(<img src="ability08.png" />) <span class="cmt"># 08</span>
+<span class="skw">click</span>(<img src="ability09.png" />) <span class="cmt"># 09</span>
+<span class="skw">click</span>(<img src="ability10.png" />) <span class="cmt"># 10</span>
+
+<span class="cmt"># upgrade team stepwise, so each is one step above the one below it</span>
+<span class="skw">type</span>(<span class="str">"aa"</span>); <span class="skw">sleep</span>(<span class="dig">0.1</span>);
+<span class="skw">type</span>(<span class="str">"aass"</span>); <span class="skw">sleep</span>(<span class="dig">0.1</span>);
+<span class="skw">type</span>(<span class="str">"aassdd"</span>); <span class="skw">sleep</span>(<span class="dig">0.1</span>);
+<span class="skw">type</span>(<span class="str">"aassddff"</span>); <span class="skw">sleep</span>(<span class="dig">0.1</span>);
+<span class="skw">type</span>(<span class="str">"aassddffgg"</span>); <span class="skw">sleep</span>(<span class="dig">0.1</span>);
+
+<span class="cmt"># start weapons in Idle Mode</span>
+<span class="skw">click</span>(<img src="weapon_left.png" />) <span class="cmt"># left</span>
+<span class="skw">click</span>(<img src="weapon_center.png" />) <span class="cmt"># center</span>
+<span class="skw">click</span>(<img src="weapon_right.png" />) <span class="cmt"># right</span>
+
+<span class="cmt"># upgrade a bunch</span>
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">90</span>):
+    <span class="kw">if</span> <span class="kw">not</span> i % <span class="dig">10</span>:
+        Debug.user(<span class="str">"i=%i"</span> % (i))
+    <span class="skw">type</span>(<span class="str">"asdfg"</span>)
+    <span class="skw">sleep</span>(<span class="dig">0.1</span>)
+
+<span class="cmt"># upgrade slower</span>
+Debug.user(<span class="str">"slower"</span>)
+<span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">20</span>):
+    <span class="skw">type</span>(<span class="str">"asdfg"</span>)
+    <span class="skw">sleep</span>(<span class="dig">0.5</span>)
+</pre>
+</body>
+</html>

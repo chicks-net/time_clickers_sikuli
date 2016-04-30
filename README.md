@@ -11,8 +11,9 @@ To get this to work you should
 
 ## Scripts
 
-* [UpgradeEverybody.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeEverybody.sikuli/UpgradeEverybody.html)
-* [UpgradeStepped.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeStepped.sikuli/UpgradeStepped.html)
+* [TimeWarp.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/TimeWarp.sikuli/TimeWarp.html) - handle a Time Warp
+* [UpgradeEverybody.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeEverybody.sikuli/UpgradeEverybody.html) - upgrade all team members evenly
+* [UpgradeStepped.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeStepped.sikuli/UpgradeStepped.html) - get team members into step wise fashion then upgrade them evenly
 
 ## Technical notes
 
