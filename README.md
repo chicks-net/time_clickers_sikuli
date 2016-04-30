@@ -12,6 +12,7 @@ To get this to work you should
 ## Scripts
 
 * [UpgradeEverybody.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeEverybody.sikuli/UpgradeEverybody.html)
+* [UpgradeStepped.sikuli](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeStepped.sikuli/UpgradeStepped.html)
 
 ## Technical notes
 
