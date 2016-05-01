@@ -10,32 +10,34 @@ switchApp("TimeClickers")
 
 # upgrade gun
 click("gun01.png") # 01
-click("gun02.png") # 02
-click("gun03.png") # 03
-click("gun04.png") # 04
-click("gun05.png") # 05
-click("gun06.png") # 06
-click("gun07.png") # 07
-click("gun08.png") # 08
-click("gun09.png") # 09
-click("gun10.png") # 10
-click("gun11.png") # 11
-click("gun12.png") # 12
-click("gun13.png") # 13
+gun = getLastMatch()
+click(gun) # 02
+click(gun) # 03
+click(gun) # 04
+click(gun) # 05
+click(gun) # 06
+click(gun) # 07
+click(gun) # 08
+click(gun) # 09
+click(gun) # 10
+click(gun) # 11
+click(gun) # 12
+click(gun) # 13
 
 
 # buy abilities
 click("ability01.png") # 01
-click("ability02.png") # 02
-click("ability03.png") # 03
-click("ability04.png") # 04
-click("ability05.png") # 05
-click("ability06.png") # 06
-click("ability07.png") # 07
+ability = getLastMatch()
+click(ability) # 02
+click(ability) # 03
+click(ability) # 04
+click(ability) # 05
+click(ability) # 06
+click(ability) # 07
 click("dimension_shift.png") # dimension shift
-click("ability08.png") # 08
-click("ability09.png") # 09
-click("ability10.png") # 10
+click(ability) # 08
+click(ability) # 09
+click(ability) # 10
 
 # upgrade team stepwise, so each is one step above the one below it
 type("aa"); sleep(0.1);
