@@ -1,5 +1,7 @@
 # Time Clickers automation with Sikuli
 
+[![GPLv2 license](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://github.com/chicks-net/time_clickers_sikuli/blob/master/LICENSE)
+
 Automate time warps in [Time Clickers](http://store.steampowered.com/app/385770/) with [Sikuli](http://www.sikuli.org/).
 
 ## Setup
