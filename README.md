@@ -15,10 +15,10 @@ To get this to work you should:
 
 ## Scripts
 
-* [TimeWarp](https://rawgit.com/chicks-net/time_clickers_sikuli/master/TimeWarp.sikuli/TimeWarp.html) - handle a Time Warp
-* [UpgradeRandomly](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeRandomly.sikuli/UpgradeRandomly.html) - upgrade team members randomly
-* [UpgradeEverybody](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeEverybody.sikuli/UpgradeEverybody.html) - upgrade all team members evenly
-* [UpgradeStepped](https://rawgit.com/chicks-net/time_clickers_sikuli/master/UpgradeStepped.sikuli/UpgradeStepped.html) - get team members into step wise fashion then upgrade them evenly
+* [TimeWarp](https://chicks-net.github.io/time_clickers_sikuli/TimeWarp.sikuli/TimeWarp.html) - handle a Time Warp
+* [UpgradeRandomly](https://chicks-net.github.io/time_clickers_sikuli/UpgradeRandomly.sikuli/UpgradeRandomly.html) - upgrade team members randomly
+* [UpgradeEverybody](https:///chicks-net.github.io/time_clickers_sikuli/UpgradeEverybody.sikuli/UpgradeEverybody.html) - upgrade all team members evenly
+* [UpgradeStepped](https:///chicks-net.github.io/time_clickers_sikuli/UpgradeStepped.sikuli/UpgradeStepped.html) - get team members into step wise fashion then upgrade them evenly
 
 ## Technical notes
 
